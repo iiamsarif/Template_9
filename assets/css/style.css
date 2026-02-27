@@ -145,6 +145,7 @@ a {
 .nav-list {
     display: flex;
     list-style: none;
+    align-items: center;
     gap: 2rem;
 }
 
@@ -154,7 +155,6 @@ a {
     text-transform: uppercase;
     letter-spacing: 0.5px;
     position: relative;
-    padding-bottom: 5px;
 }
 
 .nav-link::after {
